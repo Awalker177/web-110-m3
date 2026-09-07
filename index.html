@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apartment Search</title>
+</head>
+<body>
+    <header>
+        <h1>Apartment Search</h1>
+    </header>
+        <main>
+            <form>
+                <div>
+                    <label for="apartment name">Apartment Name:</label>
+                    <input type="text" id="apartment name" name="apartment name" required>
+                </div>
+                <br />
+
+                <div>
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location" required>
+                </div>
+                <br />
+
+                <div>
+                    <label for="monthly price">Monthly Price:</label>
+                    <input type="range" id="monthly price" name="monthly price" min="0" max="10000" step="100" required>
+                </div> 
+                <br />
+
+                <div>
+                    <label for="bedrooms">Number of Bedrooms:</label>
+                    <input type="number" id="bedrooms" name="bedrooms" min="0" placeholder="2" required>
+                </div>
+                <br />
+
+                <div>
+                    <label for="bathrooms">Number of Bathrooms:</label>
+                    <input type="number" id="bathrooms" name="bathrooms" min="0" placeholder="1" required>
+                </div>
+                <br />
+
+                <div>
+                    <label for="pets allowed">Pets Allowed:</label><br>
+                    <input type="checkbox" id="pets allowed" name="pets allowed" value="yes">
+                </div>
+                <br />
+
+                <div>
+                    <label for="date">Date Available:</label>
+                    <input type="date" id="date" name="date available" required>
+                </div>
+                <br />
+                <div>   
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
